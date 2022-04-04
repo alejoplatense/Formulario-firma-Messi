@@ -1,0 +1,40 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: url(afa.jpg);
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #112f92;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0a105f;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: rgb(194, 224, 238);
+    opacity: 0.9;
+    padding: 5px 20px;
+    margin: 50px 50px;
+    float: left;
+  }
